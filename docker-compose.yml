@@ -1,7 +1,7 @@
 services:
   db:
     container_name: mean-db
-    image: mongo:5.0.0
+    image: mongo:latest
     volumes:
       - ./mongo:/data/db
     ports:
